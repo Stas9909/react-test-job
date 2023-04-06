@@ -1,0 +1,13 @@
+td{
+  padding: 13px;
+  padding-left: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgray;
+}
+
+.buttonLike{
+  height: 22px;
+  text-align: center;
+  border-radius: 5px;
+}

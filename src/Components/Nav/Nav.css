@@ -1,0 +1,271 @@
+.nav{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navWrapper{
+  width: 80%;
+}
+
+.wrapperForHeader{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.divForHexagon {
+  width: 26px;
+  height: 28px;
+  position: relative;
+}
+
+.roundInTheMiddle{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.rect {
+  position: absolute;
+  background-color: white;
+  top: 7.8px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 2px;
+}
+
+.rect1 {
+  transform: rotate(120deg); 
+  width: 25px;
+  height: 15px;
+}
+
+.rect2 {
+  transform: rotate(60deg);
+  width: 25px;
+  height: 15px;
+}
+
+.rect3 {
+  width: 25px;
+  height: 15px;
+}
+
+.header::after {
+  content: "v.01";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 10px;
+  color: gray;
+}
+
+.generalNavigation{
+  margin-top: 20px;
+}
+
+.divForNavBtn{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .divForNavBtn::before {
+  content: url('../../Assets/icon1/Vector.png');
+  display: block;
+  position: absolute;
+  left: -20px; 
+} */
+
+.divForIcons{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.divForElements{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-right: 20px;
+}
+
+.headerInNav{
+  font-weight: 500;
+  color: lightgray;
+}
+
+.vector, 
+.vectorB2, 
+.vectorC1, 
+.vectorD4, 
+.vectorD1, 
+.vectorD2, 
+.vectorD3, 
+.vectorE2, 
+.vectorE3, 
+.vectorF1, 
+.vectorF2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.vector, .vector1, .vector2{
+  transform: translate(-50%, -50%);
+}
+
+.vector1{
+  position: absolute;
+  top: 45%;
+  left: 56%;
+}
+
+.vector2{
+  position: absolute;
+  top: 67%;
+  left: 35%;
+}
+
+.vectorB2{
+  transform: translate(-50%, -20%);
+}
+
+.highlited{
+  background-color: #5932EA;
+  border-radius: 8px;
+}
+
+.vectorC1{
+  transform: translate(-50%, 50%);
+}
+
+.vectorD4{
+  transform: translate(50%, -50%);
+}
+
+.vectorD1{
+  transform: translate(-90%, -20%);
+}
+
+.vectorD2{
+  transform: translate(-90%, -10%);
+}
+
+.vectorD3{
+  transform: translate(-90%, 80%);
+}
+
+.vectorE2{
+  transform: translate(-180%, -170%);
+}
+
+.vectorE3{
+  transform: translate(20%, 90%);
+}
+
+.vectorF1{
+  transform: translate(-50%, -70%);
+}
+
+.vectorF2{
+  transform: translate(-50%, 100%);
+}
+
+.bottomNav{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.divForAva{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.divForPersonData{
+  margin-left: 10px;
+}
+
+.name{
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.position{
+  margin-top: 0;
+  font-size: 12px;
+  color: lightgray;
+}
+
+@media (max-width: 933px) {
+  .divForHexagon{
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .bottomNav{
+    display: none;
+  }
+
+  .nav, .navWrapper{
+    width: 100%;
+  }
+
+  .generalNavigation{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+
+  .divForElements{
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .divForNavBtn{
+    border-right: 1px solid lightgray;
+  }
+}
+
+@media (max-width: 370px) {
+  .divForLowerInscription{
+    display: none;
+  }
+
+  .generalNavigation{
+    gap: 5px;
+  }
+
+  .divForElements{
+    margin-right: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

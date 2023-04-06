@@ -1,0 +1,14 @@
+.table{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  width: 96%;
+}
+
+th{
+  padding: 10px 0px 15px 0px;
+  color: lightgray;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgray;
+}

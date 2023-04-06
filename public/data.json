@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "customerName": "Jane Cooper",
+    "companyName": "Microsoft",
+    "phoneNumber": "(225) 555-0118",
+    "email": "jane@microsoft.com",
+    "countryName": "United States",
+    "stausName": "Active"
+  },
+  {
+    "id": 2,
+    "customerName": "Floyd Miles",
+    "companyName": "Yahoo",
+    "phoneNumber": "(205) 555-0100",
+    "email": "floyd@yahoo.com",
+    "countryName": "Kiribati",
+    "stausName": "Inactive"
+  },
+  {
+    "id": 3,
+    "customerName": "Ronald Richards",
+    "companyName": "Adobe",
+    "phoneNumber": "(305) 555-0107",
+    "email": "ronald@adobe.com",
+    "countryName": "Israel",
+    "stausName": "Inactive"
+  },
+  {
+    "id": 4,
+    "customerName": "Marvin McKinney",
+    "companyName": "Tesla",
+    "phoneNumber": "(252) 555-0126",
+    "email": "marvin@tesla.com",
+    "countryName": "Iran",
+    "stausName": "Active"
+  },
+  {
+    "id": 5,
+    "customerName": "Jerome Bell",
+    "companyName": "Google",
+    "phoneNumber": "(629) 555-0129",
+    "email": "jerome@google.com",
+    "countryName": "Reunion",
+    "stausName": "Active"
+  },
+  {
+    "id": 6,
+    "customerName": "Kathryn Murphy",
+    "companyName": "Microsoft",
+    "phoneNumber": "(406) 555-0120",
+    "email": "kathryn@microsoft.com",
+    "countryName": "Curacao",
+    "stausName": "Active"
+  },
+  {
+    "id": 7,
+    "customerName": "Jacob Jones",
+    "companyName": "Yahoo",
+    "phoneNumber": "(208) 555-0112",
+    "email": "jacob@yahoo.com",
+    "countryName": "Brasil",
+    "stausName": "Active"
+  },
+  {
+    "id": 8,
+    "customerName": "Kristin Watson",
+    "companyName": "Facebook",
+    "phoneNumber": "(704) 555-0127",
+    "email": "kristin@facebook.com",
+    "countryName": "Aland Islands",
+    "stausName": "Inactive"
+  }
+]
