@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//stas9909.github.io/react-test-job/static/css/main.05eca1bb.css",
+    "main.js": "//stas9909.github.io/react-test-job/static/js/main.23781dce.js",
+    "index.html": "//stas9909.github.io/react-test-job/index.html",
+    "main.05eca1bb.css.map": "//stas9909.github.io/react-test-job/static/css/main.05eca1bb.css.map",
+    "main.23781dce.js.map": "//stas9909.github.io/react-test-job/static/js/main.23781dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05eca1bb.css",
+    "static/js/main.23781dce.js"
+  ]
+}
