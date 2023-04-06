@@ -33,9 +33,9 @@ const Nav = () => {
         <div className="wrapperForHeader">
           <div className="divForHexagon">
             <div className="roundInTheMiddle"></div>
-            <div class="rect rect1"></div>
-            <div class="rect rect2"></div>
-            <div class="rect rect3"></div>
+            <div className="rect rect1"></div>
+            <div className="rect rect2"></div>
+            <div className="rect rect3"></div>
           </div>
           <div className="divForHeader">
             <h1 className="header">Dashboard</h1>
