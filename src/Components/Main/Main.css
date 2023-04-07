@@ -37,6 +37,10 @@
   margin-right: 20px;
 }
 
+.divForSearch{
+  position: relative;
+}
+
 .searchBtn, .searchInput{
   background-color: #f5f7fb;
   border: none;
@@ -144,6 +148,18 @@
     display: none;
   }
 }
+
+@media (max-width: 400px) {  
+  .divForHeaders{
+    display: none;
+  }
+
+  .divForSearch{
+    margin-top: 20px;
+  }
+}
+
+
 
 
 

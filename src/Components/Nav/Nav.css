@@ -81,13 +81,6 @@
   gap: 10px;
 }
 
-/* .divForNavBtn::before {
-  content: url('../../Assets/icon1/Vector.png');
-  display: block;
-  position: absolute;
-  left: -20px; 
-} */
-
 .divForIcons{
   width: 20px;
   height: 20px;
@@ -240,19 +233,30 @@
   }
 }
 
-@media (max-width: 480px) {
-  .divForNavBtn{
+@media (max-width: 500px) {
+  .generalNavigation{
+    margin-left: 10px;
+  }
+
+  .generalNavigation .divForNavBtn:nth-child(1){
+    padding-right: 10px;
+  }
+
+  .divForNavBtn, .highlited{
     border-right: 1px solid lightgray;
+  }
+
+  .divForElements{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
   }
 }
 
 @media (max-width: 370px) {
   .divForLowerInscription{
     display: none;
-  }
-
-  .generalNavigation{
-    gap: 5px;
   }
 
   .divForElements{

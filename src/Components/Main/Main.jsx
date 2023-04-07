@@ -21,7 +21,7 @@ const Main = () => {
   }
 
   useEffect(() => {
-    axios.get('../data.json')
+    axios.get('../../../react-test-job/data.json')
       .then(response => setCustomersData(response.data))
       .catch(error => console.log(error))
   }, [])
